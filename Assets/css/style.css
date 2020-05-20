@@ -1,0 +1,31 @@
+.container {
+    padding-bottom: 20%;
+
+}
+body {
+    background-color: #212121 !important;
+}
+.navbar {
+    background-color: #0D7377;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(35, 141, 141);
+    background-color: #323232;
+}
+
+
+
+/*
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+    }
+}
+*/

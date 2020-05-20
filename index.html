@@ -2,16 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>George Flores's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>George Flores</title>
 </head>
 
 <body>
-    <h1>George Flores's Portfolio</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis veniam, ipsa voluptas, mollitia quis cum quod
-        esse doloribus dolorum temporibus soluta. Accusamus cumque doloremque voluptatibus beatae ducimus optio ipsam
-        et.</p>
+
+  <div class="container">
+
+    <!--Nav Link-->
+    <nav class="navbar navbar-light" style="border-bottom-style: solid; border-bottom-color:gray; ">
+      <a class="navbar-brand mb-0 h1 text-white" style="background-color: rgb(35, 141, 141); padding: 20px;"
+        href="index.html">George
+        Flores</a>
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--About me card-->
+    <main class="row" style="margin: 0 auto;">
+      <div class="card col-md-8" style="margin-top: 1rem;">
+
+        <div class="card-body">
+          <h2 class="card-title" style="color: rgb(35, 141, 141);">About Me</h2>
+          <hr class="my-4">
+          <img src="Assets/Images/profile.png" style="width: 18rem; height: 18rem; padding: 1rem;"
+            class="card-img-top rounded float-left" alt="Portrait of George Flores">
+
+          <p class="card-text">Hi! My name is George Flores. I was born in Long Island, NY and moved to North Carolina
+            around 2005. I graduated from the University of North Carolina at Charlotte (UNC Charlotte) with a
+            Bachelor's in Computer Science and a minor in Communication
+            Studies. Previously, I worked as a tire technician at Discount Tire while attending UNC Charlotte and have
+            worked there for about 7 years. Currently, I am attending the Coding Bootcamp
+            at UNC Charlotte in pursuit of a developer role so I can break into the technology field.
+          </p>
+          <p class="card-text">My hobbies include video games and watching shows on Netflix! I enjoy playing adventure
+            and role-playing games like
+            the <em>Legend of Zelda</em> and <em>Final Fantasy</em> series. Also, I love watching fantasy and animated
+            like <em>The Last Kingdom</em> and <em>Castlevania</em>.
+          </p>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- W/o card component
+    <div class="row">
+      <div class="col-md-8 bg-white">
+        <h2 style="color: rgb(35, 141, 141);">About Me</h2>
+        <hr class="my-4">
+        <img src="images/profile.png" style="width: 18rem; height: 18rem; padding: 1rem;" class="float-left"
+          alt="Portrait of George Flores">
+
+        <p>Hi! My name is George Flores. I graduated from the University of North Carolina at
+          Charlotte with a Bachelor's in Computer Science and a minor in Communication
+          studies. I previously worked as a tire technician at Discount Tire during my time at school and have worked
+          there for about 7 years. Currently, I am attending a Coding Bootcamp
+          at UNC Charlotte in pursuit of a developer role so I can break into the technology field.
+        </p>
+
+        <p>My hobbies include video games, watching Netflix, and coding! </p>
+
+      </div>
+      <div class="col-md-4"></div>
+
+    </div> -->
+  </div>
+
+  <footer class="footer">
+
+    <p class="text-center text-white">&copy;Copyright 2020 George Flores.</p>
+
+  </footer>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
